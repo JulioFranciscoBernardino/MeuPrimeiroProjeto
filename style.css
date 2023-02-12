@@ -1,0 +1,80 @@
+
+@import url(http://fonts.googleapis.com/css?family=roboto:400,700);
+
+body{
+    background-color: orange;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --bg-color: black;
+    --text-color: rgb(136, 88, 0);
+}
+
+#container{ 
+    height:525px;
+    width:360px;
+    margin:100px auto;
+    background-color: white;
+    box-shadow: 15px 15px 20px rgb(136, 88, 0);
+    border-radius: 20px;
+} 
+
+.titulo{
+    background-color: rgb(189, 189, 189);
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(110, 110, 110);
+}
+
+.styleForm{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: inherit;
+    font-size: 15px;
+}
+
+.styleInput{
+    background-color: white;
+    width: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.styleInput:focus{
+    border: 3px solid var(--text-color);
+    outline: none;
+}
+
+.styleSelect{
+    width: 200px;
+    padding: 5px;
+}
+
+.styleButton{
+    text-transform: uppercase;
+    font-weight: bold;;
+    display: block;
+    margin: 30px auto;
+    background-color: orange;
+    border-radius: 3px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    box-shadow: 5px 5px 5px var(--text-color);
+}
+
+#Resultado{
+    font-size: 25px;
+    text-align: center;
+    
+}
